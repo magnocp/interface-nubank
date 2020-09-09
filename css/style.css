@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    width: 447px;
+    height: 911px;
+    background-image: url("../imagens/celular.png");
+    background-repeat: no-repeat;
+    background-size: 447px 991px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tela{
+    width: 380px;
+    margin-left: -3px;
+    margin-bottom: -83px;
+    height: 738px;
+    background-color: #8A05BE;
+    padding: 10px;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header div {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.header img{
+    width: 18px;   
+    margin-top: -15px; 
+    margin-bottom: 10px; 
+    cursor: pointer;
+
+}
+.header div img{
+    width: 75px;
+    height: 75px;
+}
+.header p{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}

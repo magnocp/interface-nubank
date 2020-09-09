@@ -1,0 +1,75 @@
+#opcoes{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: white;   
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+#opcoes #img{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+#opcoes p {
+    text-align: center;
+    font-size: 13px;
+    margin: 2px 0;
+}
+#opcoes #ver-opcoes p span{
+    font-weight: 700;
+}
+#ver-opcoes{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#opcoes .opcao p {
+    font-size: 15px;
+    margin: 7px 0 7px 7px ;  
+}
+
+#opcoes .opcao .image2 {
+    width: 20px;   
+    height: 20px;   
+    margin-right: 7px;  
+}
+#opcoes .opcao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;   
+    border-bottom: 1px solid #9e51bd;    
+}
+#opcoes .opcao#border{ 
+    border-top: 1px solid #9e51bd;    
+}
+
+#opcoes .opcao .op{
+    display: flex;
+    align-items: center;    
+}
+#opcoes .opcao .op img.image1 {
+    width: 30px;  
+}
+#opcoes .opcao .op div p{    
+    font-size: 15px;
+    text-align: left;
+}
+#opcoes .opcao .op div p:last-child{    
+    font-size: 10px;    
+    margin-top: -5px;
+}
+
+#opcoes button{
+    margin: 15px 0px;
+    width: 100%;
+    border: 1px solid #9e51bd;
+    background-color: #8A05BE;
+    color: white;
+    padding: 15px;
+}

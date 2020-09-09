@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/linha.css">
+        <link rel="stylesheet" href="css/coluna.css">
+        <link rel="stylesheet" href="css/opcoes.css">
+        <title>Nubank</title>
+    </head>
+<body>
+    <div class="content">
+        <div class="tela">
+            <div class="header">
+                <div>
+                    <img src="imagens/logo.png" alt="logo">
+                    <p>Magno</p>
+                </div>                
+                <img src="imagens/arrowDown.png" alt="mais" onclick="mostrarOpcoes()">
+            </div>            
+            <div id="opcoes">               
+                <div id="inf-conta">
+                    <div id="ver-opcoes">
+                        <div id="img"></div>
+                        <p>Banco <span>260 - Nu Pagamentos S.A.</span></p>
+                        <p>Agência <span>0000</span></p>
+                        <p>Conta <span>000000000-0</span></p>
+                    </div>
+                </div>
+                <div class="opcao" id="border">
+                    <div class="op">
+                        <img class="image1" src="imagens/coluna/help.png" alt="ajuda">
+                        <p>Me Ajude</p>                       
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+                <div class="opcao">
+                    <div class="op">
+                        <img class="image1" src="imagens/opcoes/perfil.png" alt="Perfil">
+                        <div>
+                            <p>Perfil</p>
+                            <p>Nome de preferencia, telefone, e-mail</p>
+                        </div>
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+                <div class="opcao">
+                    <div class="op">
+                        <img class="image1" src="imagens/opcoes/moeda.png" alt="Configurar conta">
+                        <p>Configurar conta</p> 
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+                <div class="opcao">
+                    <div class="op">
+                        <img class="image1" src="imagens/coluna/cartaoVirtual.png" alt="Configurar Cartão">
+                        <p>Configurar Cartão</p> 
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+                <div class="opcao">
+                    <div class="op">
+                        <img class="image1" src="imagens/opcoes/loja.png" alr="Pedir conta Pj">
+                        <p>Pedir conta Pj</p> 
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+                <div class="opcao">
+                    <div class="op">
+                        <img  class="image1"src="imagens/coluna/recarga.png" alt="configuracão do app">
+                        <p>Configurações do app</p>           
+                    </div>
+                    <img class="image2" src="imagens/opcoes/setaRight.png" alt="acessar">
+                </div>
+
+                <button>SAIR DA CONTA</button>
+
+            </div>
+            <div class="linha">
+                <div class="card">
+                    <div class="superior">
+                        <div class="left">
+                            <img src="imagens/linha/moeda.png" alt="moeda">
+                            <p>Conta</p>                            
+                        </div>
+                        <div class="right">
+                            <img src="imagens/linha/visivel.png" alt="visualizar" onclick="mostrarSaldo()">
+                        </div>    
+                    </div>                  
+                    <div class="saldo">
+                        <p>Saldo da conta</p>
+                        <div></div>
+                    </div>  
+                    <div class="informacoes">
+                        <img src="imagens/linha/info.png" alt="informações">
+                        <p>Informações de extratos</p>
+                        <img src="imagens/linha/seta.png" alt="seta">
+                    </div>               
+                </div>
+                <div id="card" class="card">            
+                    <img src="imagens/linha/cartao.png" alt="cartão">
+                    <h2>cartão de crédito</h2>
+                    <p>Simplificando o controle <br> da sua vida. Como sempre deveria ter sido.</p>   
+                    <button>PEÇA O SEU</button>
+                </div>
+            </div>
+            <div class="coluna">
+                <div class="card-coluna">
+                    <img src="imagens/coluna/add.png" alt="adicionar">
+                   <p>Indicar <br> amigos</p>
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/recarga.png" alt="recarregar">
+                    <p>Recarga de <br> celular</p>
+                </div>
+                <div class="card-coluna" >
+                    <img src="imagens/coluna/cobrar.png" alt="cobrar">
+                    <p style="padding-top:15px">Cobrar</p>                  
+                </div>                
+                <div class="card-coluna">
+                    <img src="imagens/coluna/receber.png" alt="depositar">
+                    <p style="padding-top:15px">Depositar</p>                    
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/enviar.png" alt="receber">
+                    <p style="padding-top:15px">Transferir</p>                   
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/help.png" alt="ajuda">
+                    <p>Me <br>ajuda</p>                   
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/pagar.png" alt="pagar">
+                    <p style="padding-top:15px">Pagar</p>                   
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/cartaoVirtual.png" alt="cartão">
+                    <p>Bloquear <br> Cartão</p>                   
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/cadeado.png" alt="desbloquear">
+                    <p>Cartão <br> virtual</p>                   
+                </div>
+                <div class="card-coluna">
+                    <img src="imagens/coluna/organizar.png" alt="organizar">
+                    <p>Organizar <br> Atalhos</p>                   
+                </div>
+            </div>
+        </div>
+    </div>  
+    <script src="scripts/script.js"></script>  
+</body>
+</html>

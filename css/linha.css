@@ -1,0 +1,121 @@
+.linha{
+    overflow: auto;
+    padding: 5px;
+    height: 470px;
+}
+.linha::-webkit-scrollbar{
+    background-color: #9e10d6;
+}
+.linha::-webkit-scrollbar-track{
+    background-color: #9e10d6;    
+}
+.linha::-webkit-scrollbar-thumb{
+    background-color: #b41cf0;    
+}
+.linha .card{
+    width: 310px;
+    background: white;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.linha .card:first-child{
+    margin-bottom:20px;
+}
+
+.linha .superior{
+    display: flex;
+    justify-content: space-between;
+}
+.linha .superior .left{
+    display: flex;
+    align-items: center;
+}
+.linha .superior .left img {
+    width: 25px;
+    height: 30px;
+}
+.linha .superior .left p {
+    margin-left:10px; 
+    font-size: 15px;
+    color: #818181;
+}
+.linha .superior .right{
+    margin-top:10px;
+    margin-right: 10px;
+}
+.linha .superior .right img {
+    width: 22px;
+}
+.linha .saldo{
+    margin-top: 30px;    
+}
+.linha .saldo p{
+    color: #818181; 
+    margin-bottom: 2px;    
+}
+.linha .saldo div{
+    background-color: rgb(228, 228, 228);
+    width: 200px;    
+    height: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.linha #card img{
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.linha #card p{
+    text-align: center;
+    font-size: 15px;  
+    width: 200px;
+}
+.linha #card button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 60px;
+    background-color: white;
+    border: 1px solid #8A05BE;
+    border-radius: 6px;
+    color: #8A05BE;
+    font-weight: 700;
+    outline: 0; 
+    cursor: pointer;
+}
+.linha #card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.linha #card h2{
+    color: #8A05BE;
+}
+.linha .informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.linha .informacoes p{
+    font-size: 15px;
+    margin-left: -50px;
+}
+.linha .informacoes img:first-child{
+    width: 30px;
+    height: 30px;
+}
+.linha .informacoes img{
+    height: 10px;
+    margin-right: 10px;    
+}
