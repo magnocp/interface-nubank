@@ -1,2 +1,2 @@
 # interface-nubank
-Interface Nubank com html, css e JavaScript puro.
+Interface do app Nubank com html, css e JavaScript puro.
